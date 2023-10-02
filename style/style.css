@@ -1,0 +1,225 @@
+body { 
+    color: rgb(255, 255, 253);    
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+* {
+    font-family: 'Oswald', sans-serif;
+    }
+.montblanc {
+    background-image: url("../images/montagne.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 250px;
+    margin-top: -1%;
+    margin: -1%;
+    font-size: 800%;
+    height: 400px;
+    }
+img {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+.taillephoto {
+    width: 50%;
+    }
+h2, label {
+    color: chocolate;
+    font-size: 140%;
+
+    }
+h3 {
+    color: white;
+    font-size: 145%;
+    margin-top: -0.5%;
+    }
+h4 {
+    color: white;
+    font-size: 165%;
+}
+ul, li{
+    text-align: center;
+    padding-left: -3%;
+    margin-left: -3%;
+    margin-top: -0.5%;
+    }
+.menu {
+    font-size: 200%;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 123, 0);
+    background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.25))
+    transition: box-shadow 1s ease;
+    cursor: pointer;
+    }
+.menu:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+nav {
+    background-color: chocolate;
+    margin: 1%;
+    margin-left: -1%;
+    margin-right: -1%;
+    padding: 7px;
+    border-width: 3px;
+    border-style: solid;
+    border-color : black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+    }
+.show-response {
+    visibility: visible;
+    opacity: 1;
+}
+.box {
+    margin-left: 32%;
+    margin-right: 32%;
+    margin-bottom: 2.5%;
+    background-color: chocolate;
+    padding-bottom: 1.5%;
+    border: 5px solid chocolate;
+    border-radius: 140px;
+    border-width: 3px;
+    border-style: solid;
+    border-color : orangered;
+}
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.6s;
+    font-size: 160%;
+    margin-top: 4%;
+    margin-bottom: -4%;
+  }
+  .hidden2 {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.6s;
+    font-size: 160%;
+    margin-top: 4%;
+    margin-bottom: -4%;
+  }
+.buttonquizz {
+        background-color: black; /* Couleur chocolat */
+        color: #fff; /* Texte en blanc */
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 150%;
+        transition: background-color 0.3s ease;
+    }
+.buttonquizz:hover {
+        background-color: #543300;
+    }
+.buttonquizz:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(123, 63, 0, 0.3);
+    }
+.choco {
+    color: chocolate;
+    font-size: 110%;
+    }
+.conteneur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 5px solid chocolate;
+    line-height: 25px;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 140px;
+    }
+form {
+        text-align: center;
+}
+label {
+        display: block;
+        margin-bottom: 10px;
+    }
+input, textarea {
+        width: 40%;
+        padding: 10px;
+        margin-bottom: 10px;
+}
+
+input[type="envoie"] {
+        background-color: chocolate;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        width: 50px;
+}
+
+a {
+    color: black;
+    padding: 5px;
+    text-decoration:none;
+}
+a:hover {
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    }
+
+ul, li {
+    list-style-position: inside;
+    
+    }
+button {
+    border-width: 1.5px;
+    border-style: solid;
+    border-color : black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+@media screen and (max-width: 1400px) {
+    .conteneur, .quizBox {
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 17px;
+       padding: 50px;
+       font-size: 140%;
+       line-height: 50px;
+    }
+
+    .menu, nav, h2, h3 {
+        font-size: 130%;
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 1.5em;
+    }
+
+    a {
+        font-size: 160%;
+        padding: 10px;
+    }
+    .clickevent {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 200%;
+
+    }
+    .buttonquizz {
+        font-size: 130%;
+        margin-top: -20%;
+        margin-bottom: 2%;
+    }
+    
+       .box {
+        margin-left: 150px;
+        margin-right: 150px;
+
+    }
+}
+
